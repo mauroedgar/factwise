@@ -1,0 +1,20 @@
+package br.com.livecenografia.fact_wise2.model;
+
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+import lombok.Getter;
+import lombok.Setter;
+
+
+@Getter
+@Setter
+public class MyRolesDTO {
+
+    private Long id;
+
+    @NotNull
+    @Size(max = 255)
+    @MyRolesRoleNameUnique
+    private String roleName;
+
+}
