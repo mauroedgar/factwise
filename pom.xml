@@ -109,7 +109,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>app.koyeb.example.App</mainClass>
+                            <mainClass>br.com.livecenografia.fact_wise2.FactWise2Application</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
